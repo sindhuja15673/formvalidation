@@ -1,11 +1,53 @@
-.App {
-  text-align: center;
+.background-image{
+  background-image: url('images/form.jpg');
+  width: 100%;
+  height: 663px;
+  
+  object-fit:cover;
+  object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  width: 350px;
+  height: 300px;
+  border-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 25px;
+  padding: 60px;
+  box-shadow: 40px;
+  background-color: rgb(138, 16, 225);
+  margin-left: 480px;
+  margin-bottom: -50px;
+  border: 5px solid rgb(24, 2, 74);
+  
+  
+
+  
 }
+input{
+  border-radius: 15px;
+
+}
+
+.form-group{
+  font-size: 30px;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+.form-feedback{
+  color: red;
+  
+}
+
+button{
+  border-radius: 14px;
+  width: 80px;
+  height: 20px;
+}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +55,9 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
+
 
 @keyframes App-logo-spin {
   from {
